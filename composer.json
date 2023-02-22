@@ -41,7 +41,7 @@
         "illuminate/console": "^9.0.0 || ^10.0.0",
         "illuminate/database": "^9.0.0 || ^10.0.0",
         "illuminate/support": "^9.0.0 || ^10.0.0",
-        "mooxnl/laravel-support": "^7.0.0",
+        "rinvex/laravel-support": "dev-support-laravel-10",
         "spatie/eloquent-sortable": "^4.0.0",
         "spatie/laravel-sluggable": "^3.3.0",
         "spatie/laravel-translatable": "^6.0"
@@ -77,5 +77,11 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mooxnl/laravel-support"
+        }
+    ]
 }
